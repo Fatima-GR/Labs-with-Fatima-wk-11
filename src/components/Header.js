@@ -11,10 +11,10 @@ const Header = ({headerText,headerColor,backgroundColor,circleColor,navColor,a,b
     return (
     <header className="header" style={styles}>
         <nav style={{color:navColor}} className="nav">
-            <a>{a}</a>
-            <a>{b}</a>
-            <a>{c}</a>
-            <a>{d}</a>
+            <p>{a}</p>
+            <p>{b}</p>
+            <p>{c}</p>
+            <p>{d}</p>
         </nav>
         <h1 style={{ color: headerColor}} className="heading-one">{headerText}</h1>
         
